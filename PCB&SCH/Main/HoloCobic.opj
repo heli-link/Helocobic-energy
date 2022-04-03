@@ -1,0 +1,281 @@
+(ExpressProject "HoloCobic"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/19/22]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "d:\hardware\library\symbol\mylibrary-home.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\holocobic.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Display_Online_DRC_Results "FALSE")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\holocobic.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\ADMINISTRATOR\DESKTOP\HOLOCUBIC\PCB&SCH\HOLOCOBIC.DRC")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\holocobic.drc"
+      (Type "Report"))
+    (File "..\holocobic.drc"
+      (Type "Report"))
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("HEADER 1"
+      (FullPartName "HEADER 1.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 8"
+      (FullPartName "HEADER 8.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 7"
+      (FullPartName "HEADER 7.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (ST7789
+      (FullPartName "ST7789.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 6"
+      (FullPartName "HEADER 6.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("HEADER 12"
+      (FullPartName "HEADER 12.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (TF/MicroSD
+      (FullPartName "TF/MicroSD.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (SD_AutoOut_Stand
+      (FullPartName "SD_AutoOut_Stand.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (MPU6050
+      (FullPartName "MPU6050.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    ("STM32F401xD/Exx UFQFPN48"
+      (FullPartName "STM32F401xD/Exx UFQFPN48.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    ("NPN BCE"
+      (FullPartName "NPN BCE.Normal")
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("NPN DIAC"
+      (FullPartName "NPN DIAC.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("PHOTO NPN"
+      (FullPartName "PHOTO NPN.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ANT_Rainsun-AN5120
+      (FullPartName "ANT_Rainsun-AN5120.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (ESP32-DOWD
+      (FullPartName "ESP32-DOWD.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (cp2102
+      (FullPartName "cp2102.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (type-c-24p
+      (FullPartName "type-c-24p.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (Type-c
+      (FullPartName "Type-c.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "E:\CANDENCE16.6\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (SOT23-5
+      (FullPartName "SOT23-5.Normal")
+      (LibraryName "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "E:\Candence16.6\Cadence\Cadence_SPB_16.6\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Administrator\Desktop\holocubic\PCB&SCH\Main\holocobic.dsn")
+      (Path "Design Resources"
+         "C:\Users\Administrator\Desktop\holocubic\PCB&SCH\Main\holocobic.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\hardware\library\symbol\mylibrary-home.olb")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 936"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 -264 1021 40 721")
+        (Scroll "1360 1350")
+        (Zoom "196")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ADMINISTRATOR\DESKTOP\HOLOCUBIC\PCB&SCH\MAIN\HOLOCOBIC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "main"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1461 78 582")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2872 489")
+        (Zoom "526"))
+      (Path "D:\HARDWARE\LIBRARY\SYMBOL\MYLIBRARY-HOME.OLB")
+      (Package "MPU6050")))
+  (MPSSessionName "Administrator")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (ISPCBBASICLICENSE "false"))
